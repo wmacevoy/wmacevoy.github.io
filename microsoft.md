@@ -12,7 +12,7 @@ Here is what I wish they would do:
 Harsh but true.  They need to buy [wine](https://www.winehq.org) and build the next release of windows *on top of* the Linux kernel.  The result will still be called windows, but you get my point. This fixes so many problems.
 
 Search stackoverflow for a solution to almost anything, and you will find out how to solve it in unix.  Devs mostly don't care about solving something in windows, because they aren't about to deploy 5GB licensed containers to the cloud when they could deply 5MB free containers to do the same thing.  If windows was a managed stack over linux, then those containers might shrink to the point they don't create bursts of laughter at dev office parties.
-![laughter](https://cdn.pixabay.com/photo/2015/05/20/09/36/laughter-775062_960_720.jpg)
+![laughter](microsoft-etc/laughter-775062_960_720.jpg)
 
 Windows virtualization sucks.  Hard.  VMWare, VirtualBox, Docker, Vagrant.  Mac/linux users rejoice in options and freedom of fluid management and deployment of dev ops.  Oh, wait, shit, you're running windows.  Three days of googling and BIOS reboots later you fear changing anything on your computer.  If Microsoft adopted a linux kernel (and therefore ditched Hyper-V, the most awful thing they have recently shat on developers), and chose to never license windows on a x86 laptop that did not have virtualization in the CPU that existed and was *enabled*.  Suddenly windows devs can tango with everyone else, and containers work for *apps* to make clean windows deployments, so devs can make more reliable applications for consumers with less effort.
 ![By Anouchka Unel - Own work, FAL, https://commons.wikimedia.org/w/index.php?curid=844853](microsoft-etc/tango.jpg)
