@@ -3,7 +3,7 @@
 Microsoft for devs is cafeteria food.  Even when they're good they can't get over the stigma, and sometimes they are not very good.
 ![bad cafeteria food from https://www.dosomething.org/sites/default/files/FedUp_1.1.pdf](microsoft-etc/food-bad.png)
 
-The core is this: Microsoft was the gorilla in the game for a long time, and now they are looking more and more like an also played.  They are using new tactics, but it seems like they really don't get it yet.  Like an alcoholic that hasn't yet hit rock bottom and really turned around.  They really are trying. ![bum statue](https://c1.staticflickr.com/2/1367/863720665_8d9f2b1f19_b.jpg)
+The core is this: Microsoft was the gorilla in the game for a long time, and now they are looking more and more like an also played.  They are using new tactics, but it seems like they really don't get it yet.  Like an alcoholic that hasn't yet hit rock bottom and really turned around.  They really are trying. ![bum statue](microsoft-etc/863720665_8d9f2b1f19_b.jpg)
 
 Here is what I wish they would do:
 
@@ -11,7 +11,7 @@ Here is what I wish they would do:
 
 Harsh but true.  They need to buy [wine](https://www.winehq.org) and build the next release of windows *on top of* the Linux kernel.  The result will still be called windows, but you get my point. This fixes so many problems.
 
-Search stackoverflow for a solution to almost anything, and you will find out how to solve it in unix.  Devs mostly don't care about solving something in windows, because they aren't about to deploy 5GB licensed containers to the cloud when they could deply 5MB free containers to do the same thing.  If windows was a managed stack over linux, then those containers might shrink to the point they don't create bursts of laughter at dev office parties.
+Search stackoverflow for a solution to almost anything, and you will find out how to solve it in unix.  Devs mostly don't care about solving something in windows, because they aren't about to deploy 5GB licensed containers to the cloud when they could deploy 5MB free containers to do the same thing.  If windows was a managed stack over linux, then those containers might shrink to the point they don't create bursts of laughter at dev office parties.
 ![laughter](microsoft-etc/laughter-775062_960_720.jpg)
 
 Windows virtualization sucks.  Hard.  VMWare, VirtualBox, Docker, Vagrant.  Mac/linux users rejoice in options and freedom of fluid management and deployment of dev ops.  Oh, wait, shit, you're running windows.  Three days of googling and BIOS reboots later you fear changing anything on your computer.  If Microsoft adopted a linux kernel (and therefore ditched Hyper-V, the most awful thing they have recently shat on developers), and chose to never license windows on a x86 laptop that did not have virtualization in the CPU that existed and was *enabled*.  Suddenly windows devs can tango with everyone else, and containers work for *apps* to make clean windows deployments, so devs can make more reliable applications for consumers with less effort.
