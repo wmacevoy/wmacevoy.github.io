@@ -13,7 +13,7 @@ So where do we put these thoughts?
 * Medium.  Seems like a good idea.  Try making a page and extract the URL you made a link of?  I feel the alien parasitoid slipping down my throat... ![facehugger](https://upload.wikimedia.org/wikipedia/en/b/bb/Alien-The_Facehugger.png)
 
 * Wordpress.  Ok, not bad.  Old school.  But what about some version control?  And I'm a coder.  I want my expression of thought to merge with my dev habits!
-![dev pen](pwnd_img/pexels-photo-262585.jpeg)
+![dev pen](pwnd-etc/pexels-photo-262585.jpeg)
 
 So here's what.  Github wiki.  There is version control.  No ads, links are links.  Here's to hope it doesn't get pwnd too...
 
