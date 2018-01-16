@@ -1,4 +1,4 @@
 # Sé
 
-* [pwnd]
-* [microsoft]
+* [pwnd](pwnd)
+* [microsoft](microsoft)
