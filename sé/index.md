@@ -1,4 +1,0 @@
-# Sé
-
-* [pwnd]
-* [microsoft]
