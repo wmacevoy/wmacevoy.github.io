@@ -1,4 +1,5 @@
 # Warren MacEvoy, Ph.D
+
 |Resource    |Id|
 |------------|--|
 |CMU Email   |wmacevoy@colordaomesa.edu|
@@ -7,6 +8,7 @@
 |Discord     |wmacevoy#8039|
 |US Phone    | +1.970.260.1793|
 |Nepali Phone| ...|
+
 ## Education
 
 * B.S. Computer Science, Mesa State College (now Colorado Mesa University), 1989
