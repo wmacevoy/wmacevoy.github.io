@@ -1,13 +1,13 @@
 # Warren MacEvoy, Ph.D
 
-|Resource    |Id|
-|------------|--|
-|CMU Email   |wmacevoy@colordaomesa.edu|
-|GMail       |wmacevoy@gmail.com|
-|GitHub      |wmacevoy|
-|Discord     |wmacevoy#8039|
-|US Phone    | +1.970.260.1793|
-|Nepali Phone| ...|
+| Resource    | Id                        |
+| ----------- | ------------------------- |
+| CMU Email   | wmacevoy@colordaomesa.edu |
+| GMail       | wmacevoy@gmail.com        |
+| GitHub      | wmacevoy                  |
+| Discord     | wmacevoy#8039             |
+| US Phone    | +1.970.260.1793           |
+| Nepali Phone| ...                       |
 
 ## Education
 
