@@ -11,10 +11,10 @@
 
 ## Education
 
+* Ph.D. Applied Mathematics, University of Arizona, 1994.
+* M.S. Applied Mathematics, University of Arizona, 1991.
 * B.S. Computer Science, Mesa State College (now Colorado Mesa University), 1989
 * B.S. Mathematics, Mesa State College (now Colorado Mesa University), 1989
-* M.S. Applied Mathematics, University of Arizona, 1991.
-* Ph.D. Applied Mathematics, University of Arizona, 1994.
 
 ## Experience
 
