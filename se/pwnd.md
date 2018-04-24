@@ -28,7 +28,3 @@ The anti-pwnd manifesto.
 I know! — Warren MacEvoy
 
 [Issues?](https://github.com/wmacevoy/wmacevoy.github.io/issues/1)
-
-
-
- 
