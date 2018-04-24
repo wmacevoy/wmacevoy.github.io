@@ -45,11 +45,12 @@
 
 ## Panels/Projects/Ideas
 
-* As a regional director of the world's largest collegiate programming contest, the [ICPC](icpc.baylor.edu), students/faculty might be interested in talking about programming contests.
-* As a developer of one of the first self-driving cars, humanoid robots, and robotic tractors, students/faculty might be interested in autonomous vehicles [DARPA 2005](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2005)), [DARPA 2007](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)), [DARPA Robotics Challenge](https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge), [AgBot](www.agbot.ag).
-* As an advisor in an innovation center, students/faculty might be interested in building their own company [MIC](https://www.coloradomesa.edu/innovation)
-* As co-director of the NASA Space Grant at CMU, students/faculty might be interested in space technology [SpaceGrant](https://spacegrant.colorado.edu/)
-* As developer of numerical solvers for 3D reactive flow, nonlinear optics, and nonlinear wave phenomena, students might be interesting in large physics and chemistry, or applied mathematics in general.
-* As developer of control systems for canal water diversions, students might be interested in industrial controls.
-* As developer of low level security protocols, students might be interested in topics of computer and network security.
-* As developer of embedded testing libraries, students might be interested in the roles of automated testing in modern software development. [ArduinoUnit](https://github.com/mmurdoch/arduinounit)
+* As a regional director of the world's largest collegiate programming contest, the [ICPC](https://icpc.baylor.edu), students/faculty might be interested in talking about programming contests (computers/education).
+* As a developer of one of the first self-driving cars, humanoid robots, and robotic tractors, students/faculty might be interested in autonomous vehicles [DARPA 2005](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2005)), [DARPA 2007](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)), [DARPA Robotics Challenge](https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge), [AgBot](https://www.agbot.ag) (robotics/ai).
+* As an advisor in an innovation center, students/faculty might be interested in building their own company [MIC](https://www.coloradomesa.edu/innovation) (business/innovation).
+* As co-director of the NASA Space Grant at CMU, students/faculty might be interested in space technology [SpaceGrant](https://spacegrant.colorado.edu/) (technology/space).
+* As developer of embedded testing libraries, students might be interested in the roles of automated testing in modern software development. [ArduinoUnit](https://github.com/mmurdoch/arduinounit) (computers/engineering).
+* As developer of numerical solvers for 3D reactive flow, nonlinear optics, and nonlinear wave phenomena, students might be interesting in large physics and chemistry, or applied mathematics in general [ASC](http://www.lanl.gov/asc) (computers/scientific).
+* As developer of control systems for canal water diversions, students might be interested in industrial controls (computers/embedded).
+* As developer of low level security protocols, students might be interested in topics of computer and network security (computers/security).
+* As researcher in fundamental flow properties in porous media, students might be interested in electro-osmosis and electro-phoresis (physics/chemistry).
