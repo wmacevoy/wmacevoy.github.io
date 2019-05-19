@@ -17,5 +17,17 @@ Windows containers almost profoundly do not matter: nobody deploys them, they ar
 
 Docker, please, please, prioritizes a solution that supports your principle goals: simple compatible linux containers. For devs to enter the market with positive experiences, this means having that work in windows without hyper-V so they can use it in combination with other virtualization tools.
 
+## A call to digital arms
+
+It ain't a container if...
+
+If hello world is over 1GB, it ain't a container.
+If making a container means you can't run it on 98% of stacks, it ain't a container.
+If the typical directions for running containers does not work on your platfor, it ain't a container (platform).
+If running your thing means turing stuff off for all the other things you do, it ain't a containre (platform)
+
+Gently ask docker to focus on their original killer app idea: maintainable, composeable, lightweight linux containers.
+
+I know! — Warren MacEvoy
 
 
