@@ -21,10 +21,10 @@ Docker, please, please, prioritizes a solution that supports your principle goal
 
 It ain't a container if...
 
-If hello world is over 1GB, it ain't a container.
-If making a container means you can't run it on 98% of stacks, it ain't a container.
-If the typical directions for running containers does not work on your platfor, it ain't a container (platform).
-If running your thing means turing stuff off for all the other things you do, it ain't a containre (platform)
+* If hello world is over 1GB, it ain't a container.
+* If making a container means you can't run it on 98% of stacks, it ain't a container.
+* If the typical directions for running containers does not work on your platfor, it ain't a container (platform).
+* If running your thing means turing stuff off for all the other things you do, it ain't a container (platform)
 
 Gently ask docker to focus on their original killer app idea: maintainable, composeable, lightweight linux containers.
 
