@@ -6,7 +6,7 @@ As an undergraduate professor of computer science, I would love to have a how-to
 
 Right now, the inability to use Docker containers in a simple reliable way that composes with the use of common virtualization (not hyper-v) in windows guarantees the students with windows laptops will have a poor experience with containers.
 
-My ability to use containers in the classroom is blocked by this. The ability of Docker, the company to have CS majors with a working and positive experience with containers is blocked by this as well.
+My ability to use containers in the classroom is blocked by this. The ability of Docker, the company, to have CS majors with a working and positive experience with containers is blocked by this as well.
 
 This is not a small thing: I keep hoping to try containers to help fix compatibility issues across student dev environments, and instead I only find new ones. It is not reasonable for the “hello world” to be a glossy discussion, followed by a 10 page essay on choices and compatibility problems that is a mile deep for some sophomore who just wants their node app to run like everyone else’s.
 
@@ -21,13 +21,16 @@ Docker, please, please, prioritizes a solution that supports your principle goal
 
 It ain't a container if...
 
-* If hello world is over 1GB, it ain't a container.
-* If making a container means you can't run it on 98% of stacks, it ain't a container.
-* If the typical directions for running containers does not work on your platfor, it ain't a container (platform).
-* If running your thing means turing stuff off for all the other things you do, it ain't a container (platform)
+* If hello world is over 1GB, it ain’t a container.
+* If making a container means you can’t run it on 98% of stacks, it ain’t a container.
+* If the typical directions for running containers does not work on your platform, it ain’t a container (platform).
+* If running your thing means turning stuff off for all the other things you do, it ain’t a container (platform).
 
-Gently ask docker to focus on their original killer app idea: maintainable, composeable, lightweight linux containers.
+Gently ask docker to focus on their original killer app idea: maintainable, composable, lightweight linux containers.
 
 I know! — Warren MacEvoy
+
+
+   
 
 
