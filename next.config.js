@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/next-homepage/' : '/next-homepage/',
+  assetPrefix: !debug ? '/next-homepage/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
