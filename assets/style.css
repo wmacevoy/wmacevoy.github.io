@@ -1,0 +1,25 @@
+#banner {
+    color: #231F20;
+    background-color: #ededed;
+}
+
+#footer {
+  clear: both;
+  height: 100px;
+  color: #ededed;
+  background-color: #231F20;
+}
+
+.schedule {
+  text-align: center;
+  color: white;
+}
+
+#footer {
+  margin-bottom: 0;
+  padding-top: 45px;
+}
+
+#currentPage {
+  color: white;
+}
