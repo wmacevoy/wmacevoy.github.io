@@ -16,20 +16,5 @@ $ npm install
 $ npm run deploy
 ```
 
-## Docker build
-
-```bash
-docker build -t github-pages-nextjs-py3 .
-```
-
-## Docker develop (https://localhost:3000)
-
-```bash
-docker run -v "$(pwd)":/app --rm github-pages-nextjs-py3 npm dev
-```
-
-## Docker deploy
-
-```bash
-docker run -v "$(pwd)":/app --rm github-pages-nextjs-py3 npm deploy
-```
+## Docker
+Docker build/start/stop/deploy scripts are in the main directory.
