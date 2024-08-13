@@ -10,7 +10,6 @@ function Layout(props) {
       <head>
         <title>{props.title}</title>
         <meta charSet="utf-8" />
-
         <link rel="icon" href={iconUrl} type="image/gif" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
