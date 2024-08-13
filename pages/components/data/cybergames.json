@@ -1,0 +1,22 @@
+[
+  {
+    "description": "Rocky Mountain Collegiate Cyber Defense Competition",
+    "url": "https://www.regis.edu/academics/colleges-and-schools/anderson/rmccdc"
+  },
+  {
+    "url": "https://www.wicked6.com/",
+    "description": "Wiked6 Cyber Games"
+  },
+  {
+    "url": "https://www.ncaecybergames.org/",
+    "description": "NCAE Cyber Games"
+  },
+  {
+    "url": "https://tryhackme.com/",
+    "description": "A fun way tolearn cyber security"
+  },
+  {
+    "url": "https://docs.google.com/document/d/1ubPXrjWM_XvD05W12yKhcq5xgpoZaI1KlgpMq1e7BOE/edit?usp=sharing",
+    "description": "Capture The Flag (CTF) Resources"
+  }
+]
