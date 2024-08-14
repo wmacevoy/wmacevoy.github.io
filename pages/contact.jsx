@@ -32,9 +32,8 @@ class Contact extends React.Component {
               <h2>Office</h2>
               <div>
                 Confluence Hall <br />
-                Room: 329 <br />
+                Room: 308 <br />
                 Office Hours: <a href="/teaching">See Here</a><br />
-                <a href="https://twitter.com/rambuznet" >Twitter </a> <br />
               </div>
               <br />
             </div>

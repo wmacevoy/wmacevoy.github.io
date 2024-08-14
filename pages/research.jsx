@@ -25,8 +25,8 @@ class Research extends React.Component {
               <h5>Research Interests</h5>
               <ul className="list-group">
                 {
-                  this.state.interests.map((interest) => (
-                    <li className="list-group-item">{interest}</li>
+                    this.state.interests.map((interest,index) => (
+                    <li className="list-group-item" key={index}>{interest}</li>
                   ))
                 }
               </ul>
