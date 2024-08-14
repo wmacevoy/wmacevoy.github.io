@@ -18,8 +18,8 @@ class Publication extends React.Component {
         <table className="table table-striped">
           <tbody>
             {
-              this.state.pub.map((pub) => (
-                <tr>
+                this.state.pub.map((pub,index) => (
+                <tr key={pub.id || index}>
                   <td>
                     <a href={pub.url} target="_blank" rel="noreferrer">{pub.title}</a><br />
                     {pub.author}<br />
