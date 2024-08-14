@@ -42,8 +42,8 @@ class Navbar extends React.Component {
           <ul className="navbar-nav">
             {
               this.state.nav_text.map((value, i) =>
-                (this.props.currentPage === value.toLocaleLowerCase()) ? <a id="currentPage" className="nav-link" href={value.toLocaleLowerCase()}>{value}</a> :
-                  <a className="nav-link" href={value.toLocaleLowerCase()}>{value}</a>
+                  (this.props.currentPage === value.toLocaleLowerCase()) ? <a id="currentPage" className="nav-link" key={i} href={value.toLocaleLowerCase()}>{value}</a> :
+                  <a className="nav-link" key={i} href={value.toLocaleLowerCase()}>{value}</a>
               )
             }
           </ul>

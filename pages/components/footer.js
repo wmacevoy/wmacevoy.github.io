@@ -18,7 +18,7 @@ class Footer extends React.Component {
         <span>|</span>
         {
           this.state.nav_text.map((text, index) =>
-            <span>&nbsp;<a href={text.toLowerCase()}>{text}</a>&nbsp;|</span>
+              <span>&nbsp;<a key={index} href={text.toLowerCase()}>{text}</a>&nbsp;|</span>
           )}
         <span> &nbsp;&nbsp; &copy; {this.year}</span>
       </p>

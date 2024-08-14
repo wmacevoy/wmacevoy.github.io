@@ -18,7 +18,7 @@ class Teaching extends React.Component {
           <div className="row">
             <Courses />
             <Schedule />
-            <hr class="d-sm-none" />
+            <hr className="d-sm-none" />
           </div>
         </div>
       </Layout>
