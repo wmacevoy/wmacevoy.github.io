@@ -12,9 +12,7 @@ shredder() {
             kb=$((kb < 1 ? 1 : kb))
 
             # Overwrite the file with random data and then with zeros
-            dd if=/dev/urandom of="$file" bs=1K count="$kb" conv=notrunc > /dev/null 2>&1
-            dd if=/dev/zero of="$file" bs=1K count="$kb" conv=notrunc > /dev/null 2>&1
-
+            dd if=/dev/random of="$file" bs=1K count="$kb" conv=notrunc > /dev/null 2>&1
         elif [ -d "$file" ]; then
             # Recursively shred and rename contents of the directory first
             shredder "$file"/*

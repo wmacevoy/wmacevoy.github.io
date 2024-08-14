@@ -3,7 +3,7 @@
 # Check if the docker.run file exists
 if [ ! -f docker.id ]; then
   echo "No running container found (docker.id file is missing)."
-  exit 1
+  exit 0
 fi
 
 # Read the container ID from the file

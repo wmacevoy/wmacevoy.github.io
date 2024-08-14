@@ -4,7 +4,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
 
 cleanup() {
-    if [ "$REPO_HOME" != "" && -d "$REPO_HOME" ]
+    if [ "$REPO_HOME" != "" -a -d "$REPO_HOME" ]
     then
         ./shredder.sh "$REPO_HOME"
         /bin/rm -rf "$REPO_HOME"
@@ -16,6 +16,13 @@ trap cleanup EXIT
 trap cleanup SIGHUP
 trap cleanup SIGINT
 trap cleanup SIGTERM
+
+
+if [ -f docker.id ]
+then
+    echo "stopping dev docker (start it again after the deployment)"
+    ./docker-stop.sh
+fi
 
 # work with repo in container
 if ! git config --get-all safe.directory | grep -q "^/app$"
