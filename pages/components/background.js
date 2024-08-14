@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import background from './data/background.json';
 
 class Background extends React.Component {
   constructor(props) {
     super(props);
-    this.state = background;
+    // Ensure background is an array for proper usage in map
+    this.state = { data: Array.isArray(background) ? background : [] };
   }
 
   render() {
@@ -17,18 +18,16 @@ class Background extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {
-            this.state.map((b) => (
-              <tr>
-                <td>{b.date} </td>
-                <td> {b.position}</td>
-              </tr>
-            ))
-          }
+          {this.state.data.map((b, index) => (
+            <tr key={index}>
+              <td>{b.date}</td>
+              <td>{b.position}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     );
   }
 }
 
-export default Background
+export default Background;

@@ -6,14 +6,14 @@ class Schedule extends React.Component {
         super(props);
         this.state = {
             semester: "Fall 2024 Schedule",
-            office: "CH 329",
+            office: "CH 308",
             days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
             times: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00",
                 "11:30", "12:00", "12:30", "1:00", "1:30", "2:00", "2:30",
                 "3:00"],
             office_hours: [
                 {
-                    days: ["Mon", "Wed", "Fri"],
+                    days: ["Mon", "Wed"],
                     start_time: "9:00",
                     time: "9-9:50",
                     includes: "9:30",
@@ -21,45 +21,45 @@ class Schedule extends React.Component {
                 },
                 {
                     days: ["Tues", "Thrs"],
-                    start_time: "10:00",
-                    time: "10-10:50",
-                    includes: "10:30",
-                    row_span: 2
+                    start_time: "9:30",
+                    time: "9:30-10:45",
+                    includes: "10:00",
+                    row_span: 3
                 }
             ],
             classes: [
                 {
-                    name: "Net/App Security",
-                    loc: "CH 210",
-                    start_time: "11:00",
+                    name: "CSCI 330-001 22077 Programming Languages",
+                    loc: "CH 310",
+                    start_time: "8:00",
                     days: ["Mon", "Wed", "Fri"],
                     time: "11:00-11:50",
                     includes: "11:30",
                     row_span: 2
                 },
                 {
-                    name: "OOP & Design Patterns",
-                    loc: "CH 215",
-                    start_time: "11:00",
+                    name: "CSCI 490-001 22778 Software Engineering",
+                    loc: "CH 310",
+                    start_time: "8:00",
                     days: ["Tues", "Thrs"],
                     time: "11:00-12:15",
-                    includes: "12:00",
+                    includes: "11:30",
                     row_span: 3
                 },
                 {
-                    name: "Beg. Python",
-                    loc: "CH 276",
-                    start_time: "1:00",
+                    name: "CSCI 110-003 25186 Beg. Python",
+                    loc: "CH 315",
+                    start_time: "11:00",
                     days: ["Mon", "Wed", "Fri"],
-                    time: "1:00-1:50",
+                    time: "11:00-11:50",
                     includes: "1:30",
                     row_span: 2
                 },
                 {
-                    name: "Beg. Python: Lab",
-                    loc: "CH 276",
+                    name: "CSCI 470-001 25186 Operating Systems",
+                    loc: "CH 315",
                     start_time: "1:00",
-                    days: ["Tues", "Thrs"],
+                    days: ["Mon", "Wed", "Fri"],
                     time: "1:00-1:50",
                     includes: "1:30",
                     row_span: 2

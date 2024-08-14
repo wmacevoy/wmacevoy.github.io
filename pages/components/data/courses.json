@@ -1,58 +1,102 @@
 [
     {
+        "name": "CSCI 100- Computers in Society",
+        "times": 4
+    },
+    {
         "name": "CSCI 106- Web I",
-        "times": 6
+        "times": "many"
     },
     {
         "name": "CSCI 110- Beg. Python",
-        "times": 10
+        "times": 1
     },
     {
         "name": "CSCI 111- CS 1",
-        "times": 11
+        "times": 1
+    },
+    {
+        "name": "CSCI 130- CS 1 for Engineers",
+        "times": 1
     },
     {
         "name": "CSCI 112- CS 2",
-        "times": 7
+        "times": 1
     },
     {
         "name": "CSCI 206- Web 2",
         "times": 2
     },
     {
+        "name": "CSCI 241- Architecture",
+        "times": "many"
+    },
+    {
         "name": "CSCI 250- CS 3",
-        "times": 3
-    },
-    {
-        "name": "CSCI 310- Adv. Python",
-        "times": 11
-    },
-    {
-        "name": "CSCI 310- Adv. JavaScript",
-        "times": 3
-    },
-    {
-        "name": "CSCI 370- Computer Security",
-        "times": 5
-    },
-    {
-        "name": "CSCI 420- Software Security",
-        "times": 10
-    },
-    {
-        "name": "CSCI 465- Net/App Security",
-        "times": 10
-    },
-    {
-        "name": "CSCI 425- Python Machine Learning",
-        "times": 4
+        "times": "many"
     },
     {
         "name": "CSCI 260- Intro To Database",
-        "times": 2
+        "times": 1
+    },
+    {
+        "name": "CSCI 306- Web 3",
+        "times": "many"
+    },
+    {
+        "name": "CSCI 310- Java + Kotlin",
+        "times": "many"
+    },
+    {
+        "name": "CSCI 330- Programming Languages",
+        "times": 3
+    },
+    {
+        "name": "CSCI 333- Unix",
+        "times": 3
+    },
+    {
+        "name": "CSCI 337- User Interface",
+        "times": 3
     },
     {
         "name": "CSCI 375- OOP & Design Patterns",
         "times": 3
+    },
+    {
+        "name": "CSCI 405- Mobile Apps",
+        "times": 2
+    },
+    {
+        "name": "CSCI 445- Graphics",
+        "times": 4
+    },
+    {
+        "name": "CSCI 450- Compiler",
+        "times": 4
+    },
+    {
+        "name": "CSCI 460- Database Design",
+        "times": 1
+    },
+    {
+        "name": "CSCI 465- Networks",
+        "times": 4
+    },
+    {
+        "name": "CSCI 470- Operating Systems",
+        "times": 3
+    },
+    {
+        "name": "CSCI 484- Networks",
+        "times": 3
+    },
+    {
+        "name": "CSCI 486- Artificial Intelligence",
+        "times": 3
+    },
+    {
+        "name": "CSCI 490- Software Engineering",
+        "times": "many"
     }
 ]

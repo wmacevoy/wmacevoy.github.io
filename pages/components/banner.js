@@ -5,10 +5,10 @@ class Banner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Dr. Ram Basnet",
-      title: "Professor of Computer Science and Cybersecurity",
+        name: "Dr. Warren MacEvoy",
+      title: "Professor of Computer Science",
       univer_url: 'http://www.coloradomesa.edu',
-      univer_logo: '/assets/cmu-logo.png',
+      univer_logo: '/assets/cmu-logo.svg',
       hide_logo: false
     };
   }

@@ -1,49 +1,36 @@
+// pages/_app.jsx or components/Layout.jsx
+
 import React from 'react';
+import Head from 'next/head';
 import Banner from './components/banner';
 import Navigation from './components/navigation';
 import Footer from './components/footer';
 
-function Layout(props) {
-  let iconUrl = "/assets/favicon_32.ico"
+const Layout = ({ children, title, currentPage }) => {
   return (
-    <html>
-      <head>
-        <title>{props.title}</title>
+    <React.Fragment>
+      <Head>
+        <title>{title}</title>
         <meta charSet="utf-8" />
-        <link rel="icon" href={iconUrl} type="image/gif" sizes="32x32" />
+        <link rel="icon" href="/assets/favicon_32.ico" type="image/gif" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/style.css" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-          // This is making use of ES6 template strings, which allow for
-          // multiline strings. We specified "{jsx: {harmony: true}}" when
-          // creating the engine in app.js to get this feature.
-          console.log("hello world");
-        `,
-          }}
-        />
-      </head>
-      <div id="banner" className="jumbotron text-center" style={{"height":"200px"}}>
+      </Head>
+      <div id="banner" className="jumbotron text-center" style={{ height: "200px" }}>
         <Banner />
       </div>
-      <div id="navbar" style={{"margin-top": "-30px"}}>
-        <Navigation currentPage={props.currentPage} />
+      <div id="navbar" style={{ marginTop: "-30px" }}>
+        <Navigation currentPage={currentPage} />
       </div>
-      <body>
+      <main>
         <div>
-          {props.children}
+          {children}
         </div>
-      </body>
+      </main>
       <div id="footer">
         <Footer />
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    </html>
+    </React.Fragment>
   );
-}
+};
 
-module.exports = Layout;
+export default Layout;

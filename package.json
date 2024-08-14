@@ -7,8 +7,7 @@
         "build": "(npm install || (npm audix fix && npm install)) && npx update-browserslist-db@latest && mkdir -p .next && next build",
         "dev": "npm run build && next dev",
         "start": "npm run build && next start",
-        "export": "npm run build && next export",
-        "deploy": "npm run clean && npm run export && touch out/.nojekyll && gh-pages -d out -t true"
+        "deploy": "npm run clean && npm run build && mkdir -p out && touch out/.nojekyll && gh-pages -d out -t true"
     },
     "dependencies": {
         "next": "latest",

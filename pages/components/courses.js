@@ -19,14 +19,15 @@ class Courses extends React.Component {
                 <br />
                 <h5>Teaching Interests</h5>
                 <ul className="list-group">
-                    <li className="list-group-item">Cybersecurity</li>
-                    <li className="list-group-item">Python, C++, JavaScript, Databases</li>
-                    <li className="list-group-item">Data Science and ML Applications</li>
-                    <li className="list-group-item">Web Design and Secure Web App Development</li>
+                    <li className="list-group-item">Software Engineering</li>
+                    <li className="list-group-item">Operating Systems</li>
+                    <li className="list-group-item">Programming Languages</li>
+                    <li className="list-group-item">Cryptography</li>
+                    <li className="list-group-item">Modeling</li>
                 </ul>
                 <br />
-                <h5><a href="https://github.com/rambasnet" target="_blank" rel="noreferrer">GitHub Repositories</a></h5>
-                <h5><a href="https://www.ratemyprofessors.com/professor/1924281" target="_blank" rel="noreferrer">Rate My Professor</a></h5>
+                <h5><a href="https://github.com/wmacevoy" target="_blank" rel="noreferrer">GitHub Repositories</a></h5>
+                <h5><a href="https://www.ratemyprofessors.com/professor/1695266" target="_blank" rel="noreferrer">Rate My Professor</a></h5>
                 <h5>Courses Taught at CMU</h5>
                 {
                     courses.map((course) => (
