@@ -40,7 +40,7 @@ REPO_HOME="$REPO/private/home/$EMAIL"
 /bin/rm -rf "$REPO_HOME"
 mkdir -p "$REPO_HOME"
 
-for cfg in .gnupg .ssh .config .gitconfig
+for cfg in .gnupg .ssh .gitconfig
 do
     cp -r "$HOME/$cfg" "$REPO_HOME/$cfg"
 done
