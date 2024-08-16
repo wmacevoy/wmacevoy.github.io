@@ -20,6 +20,10 @@ EXPOSE 3000
 ENV PORT=3000
 WORKDIR /app
 
+RUN mkdir -p /usr/local/src/shredder
+COPY ./shredder.c /usr/local/src/shredder/shredder.c
+RUN gcc -o /usr/local/bin/shredder /usr/local/src/shredder/shredder.c
+
 # server.js is created by next build from the standalone output
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
 CMD HOSTNAME="0.0.0.0" npm run dev
