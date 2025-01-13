@@ -5,7 +5,7 @@ class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Fall 2024 Schedule",
+            semester: "Spring 2025 Schedule",
             office: "CH 308",
             days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
             times: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00",
@@ -15,54 +15,54 @@ class Schedule extends React.Component {
                 {
                     days: ["Mon", "Wed"],
                     start_time: "9:00",
-                    time: "9-9:50",
+                    time: "9:00-10:45",
                     includes: "9:30",
-                    row_span: 2
+                    row_span: 4
                 },
                 {
                     days: ["Tues", "Thrs"],
-                    start_time: "9:30",
-                    time: "9:30-10:45",
-                    includes: "10:00",
-                    row_span: 3
+                    start_time: "11:00",
+                    time: "11:00-11:50",
+                    includes: "11:30",
+                    row_span: 2
                 }
             ],
             classes: [
                 {
-                    name: "CSCI 330-001 22077 Programming Languages",
-                    loc: "CH 310",
+                    name: "CSCI 337-001 40728 User Interface Design",
+                    loc: "CH 315",
                     start_time: "8:00",
                     days: ["Mon", "Wed", "Fri"],
+                    time: "8:00-8:50",
+                    includes: "8:30",
+                    row_span: 2
+                },
+                {
+                    name: "CSCI 470-001 40048 Operating Systems",
+                    loc: "CH 310",
+                    start_time: "11:00",
+                    days: ["Mon","Wed","Fri"],
                     time: "11:00-11:50",
                     includes: "11:30",
                     row_span: 2
                 },
                 {
-                    name: "CSCI 490-001 22778 Software Engineering",
-                    loc: "CH 310",
+                    name: "CSCI 490-001 40263 Software Engineering",
+                    loc: "CH 315",
                     start_time: "8:00",
-                    days: ["Tues", "Thrs"],
-                    time: "11:00-12:15",
-                    includes: "11:30",
+                    days: ["Tues","Thrs"],
+                    time: "8:00-9:15",
+                    includes: "8:30",
                     row_span: 3
                 },
                 {
-                    name: "CSCI 110-003 25186 Beg. Python",
+                    name: "CSCI 330-001 41557 Programming Languages",
                     loc: "CH 315",
-                    start_time: "11:00",
-                    days: ["Mon", "Wed", "Fri"],
-                    time: "11:00-11:50",
-                    includes: "1:30",
-                    row_span: 2
-                },
-                {
-                    name: "CSCI 470-001 25186 Operating Systems",
-                    loc: "CH 315",
-                    start_time: "1:00",
-                    days: ["Mon", "Wed", "Fri"],
-                    time: "1:00-1:50",
-                    includes: "1:30",
-                    row_span: 2
+                    start_time: "9:30",
+                    days: ["Tues", "Thrs"],
+                    time: "9:30-10:45",
+                    includes: "10:00",
+                    row_span: 3
                 },
             ]
         };
