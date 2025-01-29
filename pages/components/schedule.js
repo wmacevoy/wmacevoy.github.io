@@ -8,7 +8,7 @@ export default class Schedule extends React.Component {
         super(props);
         this.state = {
             semester: "Spring 2025 Schedule",
-            time: ["8:00 am","4:00 pm"], // time range for schedule
+            time: ["8:00 am","2:00 pm"], // time range for schedule
             day: ["Mon","Fri"], // day range for schedule
             items: [
                 {
