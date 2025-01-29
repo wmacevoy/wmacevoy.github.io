@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 # Install Python and pip in non-interactive mode
 RUN apt-get update && \
@@ -10,7 +10,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm update -g npm
+RUN npm install -g npm@11
 
 # RUN addgroup --system --gid 1001 nodejs
 # RUN adduser --system --uid 1001 nextjs
