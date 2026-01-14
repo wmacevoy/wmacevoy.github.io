@@ -7,7 +7,7 @@ export default class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Spring 2025 Schedule",
+            semester: "Fall 2025 Schedule",
             time: ["8:00 am","2:00 pm"], // time range for schedule
             day: ["Mon","Fri"], // day range for schedule
             items: [
@@ -24,26 +24,26 @@ export default class Schedule extends React.Component {
                     time: ["11:00 am","11:50 am"],
                 },
                 {
-                    name: "CSCI 337-001 40728 User Interface Design",
+                    name: "CSCI 330 Programming Languages",
                     loc: "CH 310",
                     days: ["Mon", "Wed", "Fri"],
                     time: ["8:00 am", "8:50 am"],
                 },
                 {
-                    name: "CSCI 470-001 40048 Operating Systems",
-                    loc: "CH 310",
+                    name: "CSCI 470 40048 Operating Systems",
+                    loc: "CH 315",
                     days: ["Mon","Wed","Fri"],
-                    time: ["11:00 am","11:50 am"],
+                    time: ["1:00 pm","1:50 pm"],
                 },
                 {
-                    name: "CSCI 490-001 40263 Software Engineering",
-                    loc: "CH 315",
+                    name: "CSCI 490 Software Engineering",
+                    loc: "CH 310",
                     days: ["Tue","Thu"],
                     time: ["8:00 am","9:15 am"],
                 },
                 {
-                    name: "CSCI 330-001 41557 Programming Languages",
-                    loc: "CH 315",
+                    name: "CSCI 365 Data Mining",
+                    loc: "CH 110",
                     days: ["Tue","Thu"],
                     time: ["9:30 am","10:45 am"],
                 },

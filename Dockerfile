@@ -4,6 +4,7 @@ FROM node:20
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
       git \
+      libsodium-dev \
       python3 \
       python3-pip \
         && \
@@ -22,7 +23,7 @@ WORKDIR /app
 
 RUN mkdir -p /usr/local/src/shredder
 COPY ./shredder.c /usr/local/src/shredder/shredder.c
-RUN gcc -o /usr/local/bin/shredder /usr/local/src/shredder/shredder.c
+RUN gcc -o /usr/local/bin/shredder /usr/local/src/shredder/shredder.c -lsodium
 
 # server.js is created by next build from the standalone output
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
