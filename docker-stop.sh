@@ -9,11 +9,15 @@ fi
 # Read the container ID from the file
 ID=$(cat docker.id)
 
-# Stop the Docker container
-docker stop "$ID"
+# If the container is not running, just remove the id file to avoid fragility
+if ! docker ps -q --no-trunc | grep -q "^$ID$"; then
+  echo "Container $ID not running; removing docker.id."
+  rm -f docker.id
+  exit 0
+fi
 
-# Check if the container stopped successfully
-if [ $? -eq 0 ]; then
+# Stop the Docker container
+if docker stop "$ID"; then
   echo "Container stopped successfully."
   rm -f docker.id
 else
