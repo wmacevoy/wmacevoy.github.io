@@ -15,7 +15,7 @@ export default class Schedule extends React.Component {
                     name: "Office Hour",
                     loc: "CH 308",
                     days: ["Mon","Wed"],
-                    time: ["9:00 am","10:45 am"],
+                    time: ["9:00 am","10:50 am"],
                 },
                 {
                     name: "Office Hour",
@@ -26,14 +26,14 @@ export default class Schedule extends React.Component {
                 {
                     name: "CSCI 330 Programming Languages",
                     loc: "CH 310",
-                    days: ["Mon", "Wed", "Fri"],
-                    time: ["8:00 am", "8:50 am"],
+                    days: ["Tue","Thu"],
+                    time: ["9:30 am", "10:45 am"],
                 },
                 {
                     name: "CSCI 470 40048 Operating Systems",
-                    loc: "CH 315",
+                    loc: "CH 210",
                     days: ["Mon","Wed","Fri"],
-                    time: ["1:00 pm","1:50 pm"],
+                    time: ["11:00 am","11:50 am"],
                 },
                 {
                     name: "CSCI 490 Software Engineering",
@@ -42,10 +42,10 @@ export default class Schedule extends React.Component {
                     time: ["8:00 am","9:15 am"],
                 },
                 {
-                    name: "CSCI 365 Data Mining",
-                    loc: "CH 110",
-                    days: ["Tue","Thu"],
-                    time: ["9:30 am","10:45 am"],
+                    name: "CSCI 337 User Interface",
+                    loc: "CH 310",
+                    days: ["Mon","Wed","Fri"],
+                    time: ["8:00 am","8:50 am"],
                 },
             ]
         };
