@@ -9,7 +9,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/5a292b180b7d3eab.js"
   ],
   "/components/courses": [
-    "static/chunks/c107320f265155cb.js"
+    "static/chunks/ebfb7d2959e34cb2.js"
   ],
   "/components/cybergames": [
     "static/chunks/fa9708ab5c0f760d.js"
@@ -24,7 +24,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/58647e1f85d7b141.js"
   ],
   "/components/schedule": [
-    "static/chunks/b2623a886bbda27e.js"
+    "static/chunks/eaed69f784932f57.js"
   ],
   "/components/spring_schedule": [
     "static/chunks/ef92a6d3c7aea422.js"
@@ -45,7 +45,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c84a476e89796620.js"
   ],
   "/teaching": [
-    "static/chunks/c317ebcaba3e11f0.js"
+    "static/chunks/ce06c615e492bd31.js"
   ],
   "__rewrites": {
     "afterFiles": [],
