@@ -11,7 +11,7 @@ class Courses extends React.Component {
 
     render() {
         return (
-            <div className="col-sm-4">
+            <div className="col-sm-4 schedule-sidebar print-hide">
                 <h2>Teaching</h2>
                 <div className="profileImg">
                     <img src={"/assets/teaching.png"} style={{ "width": "100%" }} alt="Teaching" />

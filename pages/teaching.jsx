@@ -14,7 +14,7 @@ class Teaching extends React.Component {
   render() {
     return (
       <Layout {...this.props} currentPage="teaching">
-        <div className="row" style={{ margin: "50px" }}>
+        <div className="row schedule-page print-reset" style={{ margin: "50px" }}>
           <div className="row">
             <Courses />
             <Schedule />
