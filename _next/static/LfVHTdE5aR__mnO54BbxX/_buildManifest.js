@@ -24,7 +24,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/58647e1f85d7b141.js"
   ],
   "/components/schedule": [
-    "static/chunks/eaed69f784932f57.js"
+    "static/chunks/79e6463b13c0beed.js"
   ],
   "/components/spring_schedule": [
     "static/chunks/ef92a6d3c7aea422.js"
@@ -45,7 +45,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c84a476e89796620.js"
   ],
   "/teaching": [
-    "static/chunks/ce06c615e492bd31.js"
+    "static/chunks/3a5a06e05133623a.js"
   ],
   "__rewrites": {
     "afterFiles": [],
