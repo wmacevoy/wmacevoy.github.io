@@ -14,6 +14,7 @@ module.exports = {
             "/research": {page: "/research"},
             "/resources": {page: "/resources"},
             "/contact":{page: "/contact"},
+            "/print-schedule": {page: "/print-schedule"},
         }
     },
     assetPrefix: !debug ? '/next-homepage/' : '',

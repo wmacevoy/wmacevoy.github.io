@@ -20,6 +20,9 @@ class Teaching extends React.Component {
             <Schedule />
             <hr className="d-sm-none" />
           </div>
+          <div className="print-hide">
+            <a href="/print-schedule" target="_blank" rel="noreferrer">Printable Schedule</a>
+          </div>
         </div>
       </Layout>
     );
