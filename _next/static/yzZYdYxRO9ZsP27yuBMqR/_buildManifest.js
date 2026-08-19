@@ -24,7 +24,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/3b39v-hto-xyu.js"
   ],
   "/components/schedule": [
-    "static/chunks/27y2y6-kuugij.js"
+    "static/chunks/3oscxx3b1aj4t.js"
   ],
   "/components/spring_schedule": [
     "static/chunks/339y-yru379x7.js"
@@ -39,7 +39,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/2xkhnnwp7ia9r.js"
   ],
   "/print-schedule": [
-    "static/chunks/22cg4yk-llu1t.js"
+    "static/chunks/1nira79nrfrq6.js"
   ],
   "/research": [
     "static/chunks/1325-97iwila_.js"
@@ -48,7 +48,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1js9266dhqbgm.js"
   ],
   "/teaching": [
-    "static/chunks/082whbui5gau7.js"
+    "static/chunks/3127o2-6w2i0g.js"
   ],
   "__rewrites": {
     "afterFiles": [],
