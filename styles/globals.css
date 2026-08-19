@@ -44,7 +44,8 @@ a {
   }
 
   .schedule-grid {
-    border-collapse: collapse !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
   }
 
   .schedule-grid .hour-row td {
@@ -53,5 +54,7 @@ a {
 
   .schedule-grid .schedule {
     border: 1px solid #222 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
